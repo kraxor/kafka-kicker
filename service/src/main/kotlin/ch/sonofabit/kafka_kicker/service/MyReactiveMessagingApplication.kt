@@ -1,4 +1,4 @@
-package ch.sonofabit.kafka_kicker.backend.service
+package ch.sonofabit.kafka_kicker.service
 
 import io.quarkus.runtime.StartupEvent
 import jakarta.enterprise.context.ApplicationScoped

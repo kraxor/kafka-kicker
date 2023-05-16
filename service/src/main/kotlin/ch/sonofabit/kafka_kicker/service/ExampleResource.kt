@@ -1,4 +1,4 @@
-package ch.sonofabit.kafka_kicker.backend.service
+package ch.sonofabit.kafka_kicker.service
 
 import jakarta.ws.rs.GET
 import jakarta.ws.rs.Path

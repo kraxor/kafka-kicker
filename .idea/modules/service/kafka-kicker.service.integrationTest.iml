@@ -14,6 +14,8 @@
           <stringArguments>
             <stringArg name="classpath">
               <args>
+                <arg>$MODULE_DIR$/../../../lib/build/libs/lib-1.0.0-SNAPSHOT.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.kotest/kotest-assertions-core-jvm/5.6.2/6ae8aa8704433a3d26baa35289e4a73da73fa5ce/kotest-assertions-core-jvm-5.6.2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-hibernate-reactive-panache-kotlin/3.0.3.Final/e004b28027d5b368fcc946d0c36fe8890fd921f6/quarkus-hibernate-reactive-panache-kotlin-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-resteasy-reactive-kotlin-serialization/3.0.3.Final/297afd34ac84615654a0a034c7d7fe059c55a136/quarkus-resteasy-reactive-kotlin-serialization-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-resteasy-reactive-kotlin-serialization-common/3.0.3.Final/fa5032f24771ea82eb43151368618fa0eec92d5/quarkus-resteasy-reactive-kotlin-serialization-common-3.0.3.Final.jar</arg>
@@ -21,6 +23,8 @@
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.reactive/mutiny-kotlin/2.1.0/a3880b850a13af85064cd0c7d31c370afcb9ae4e/mutiny-kotlin-2.1.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.6.4/2c997cd1c0ef33f3e751d3831929aeff1390cb30/kotlinx-coroutines-core-jvm-1.6.4.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-jdk8/1.6.4/5bc4b0bf6fd90fc190fd2f17e919c74c6274cb71/kotlinx-coroutines-jdk8-1.6.4.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.kotest/kotest-assertions-shared-jvm/5.6.2/5238bd7d3ae8a0801536602a5c27e1b368abb2d0/kotest-assertions-shared-jvm-5.6.2.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.kotest/kotest-assertions-api-jvm/5.6.2/38eb14f47f6add08ae2f9927adb1d3af6abb4aad/kotest-assertions-api-jvm-5.6.2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.8.10/7c002ac41f547a82e81dfebd2a20577a738dbf3f/kotlin-stdlib-jdk8-1.8.10.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkiverse.amazonservices/quarkus-amazon-ssm/2.0.1/a7a96c14ea00dc63c6809bcc99bc14f16b245bd1/quarkus-amazon-ssm-2.0.1.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-hibernate-reactive-rest-data-panache/3.0.3.Final/2c2131639d4f80163d45747b708d527f46f4cd58/quarkus-hibernate-reactive-rest-data-panache-3.0.3.Final.jar</arg>
@@ -52,7 +56,6 @@
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-datasource/3.0.3.Final/33dcb4a8fd20f06dafda5ad2127f19010ba1d47e/quarkus-datasource-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-arc/3.0.3.Final/e7dbce4bf8932e03cdd5a1588fbfaf5ad1b350dd/quarkus-arc-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-junit5/3.0.3.Final/ac89eb07455a40f5fb91334e6765a01784169a02/quarkus-junit5-3.0.3.Final.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/5.3.0/8d59681728713ee2f029d1d30781ec4f181b1687/rest-assured-5.3.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-params/5.9.2/bc2765afb7b85b583c710dd259a11c6b8c39e912/junit-jupiter-params-5.9.2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.9.2/fed843581520eac594bc36bb4b0f55e7b947dda9/junit-jupiter-api-5.9.2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-test-common/3.0.3.Final/a8a12a838a1e20d5f5b46df4f8156b3722dbfec8/quarkus-test-common-3.0.3.Final.jar</arg>
@@ -61,6 +64,7 @@
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.9.2/40aeef2be7b04f96bb91e8b054affc28b7c7c935/junit-platform-engine-1.9.2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.9.2/6f9f8621d8230cd38aa42e58ccbc0c00569131ce/junit-platform-commons-1.9.2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter/5.9.2/26c586fbe0ebd81b48c9f11f0d998124248697ae/junit-jupiter-5.9.2.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/5.3.0/8d59681728713ee2f029d1d30781ec4f181b1687/rest-assured-5.3.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.8.10/cb726a23c808a850a43e7d6b9d1ba91b02fe9f05/kotlin-stdlib-jdk7-1.8.10.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.8.10/1e90b778ea4669b6bcbfaca57313665ddd804779/kotlin-reflect-1.8.10.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-core-jvm/1.5.0/d701e8cccd443a7cc1a0bcac53432f2745dcdbda/kotlinx-serialization-core-jvm-1.5.0.jar</arg>
@@ -301,6 +305,9 @@
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/txw2/4.0.2/24e167be69c29ebb7ee0a3b1f9b546f1dfd111fc/txw2-4.0.2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.istack/istack-commons-runtime/4.1.1/9b3769c76235bc283b060da4fae2318c6d53f07e/istack-commons-runtime-4.1.1.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../service/build/classes/kotlin/main</arg>
+                <arg>$MODULE_DIR$/../../../service/build/resources/main</arg>
+                <arg>$MODULE_DIR$/../../../service/build/classes/kotlin/test</arg>
               </args>
             </stringArg>
             <stringArg name="destination" arg="$MODULE_DIR$/../../../service/build/classes/kotlin/integrationTest" />
@@ -335,6 +342,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="kafka-kicker.service.main" />
     <orderEntry type="module" module-name="kafka-kicker.service.test" production-on-test="" />
+    <orderEntry type="module" module-name="kafka-kicker.lib.main" />
     <orderEntry type="library" name="Gradle: io.quarkus:quarkus-hibernate-reactive-panache-kotlin:3.0.3.Final" level="project" />
     <orderEntry type="library" name="Gradle: io.quarkus:quarkus-resteasy-reactive-kotlin-serialization:3.0.3.Final" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10" level="project" />
@@ -347,8 +355,9 @@
     <orderEntry type="library" name="Gradle: io.quarkiverse.amazonservices:quarkus-amazon-secretsmanager:2.0.1" level="project" />
     <orderEntry type="library" name="Gradle: io.quarkus:quarkus-arc:3.0.3.Final" level="project" />
     <orderEntry type="library" name="Gradle: io.quarkus:quarkus-junit5:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.rest-assured:rest-assured:5.3.0" level="project" />
     <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter:5.9.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.rest-assured:rest-assured:5.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.kotest:kotest-assertions-core-jvm:5.6.2" level="project" />
     <orderEntry type="library" name="Gradle: io.quarkus:quarkus-kotlin:3.0.3.Final" level="project" />
     <orderEntry type="library" name="Gradle: io.quarkus:quarkus-hibernate-reactive-panache:3.0.3.Final" level="project" />
     <orderEntry type="library" name="Gradle: io.quarkus:quarkus-hibernate-reactive-panache-common:3.0.3.Final" level="project" />
@@ -387,6 +396,8 @@
     <orderEntry type="library" name="Gradle: io.quarkus:quarkus-bootstrap-core:3.0.3.Final" level="project" />
     <orderEntry type="library" name="Gradle: io.quarkus:quarkus-junit5-properties:3.0.3.Final" level="project" />
     <orderEntry type="library" name="Gradle: com.thoughtworks.xstream:xstream:1.4.20" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter-params:5.9.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter-api:5.9.2" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpmime:4.5.14" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpclient:4.5.14" level="project" />
     <orderEntry type="library" name="Gradle: io.rest-assured:xml-path:5.3.0" level="project" />
@@ -395,8 +406,7 @@
     <orderEntry type="library" name="Gradle: org.apache.groovy:groovy:4.0.6" level="project" />
     <orderEntry type="library" name="Gradle: org.hamcrest:hamcrest:2.1" level="project" />
     <orderEntry type="library" name="Gradle: org.ccil.cowan.tagsoup:tagsoup:1.2.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter-params:5.9.2" level="project" />
-    <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter-api:5.9.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10" level="project" />
     <orderEntry type="library" name="Gradle: io.smallrye.reactive:mutiny-kotlin:2.1.0" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.6.4" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.8.10" level="project" />
@@ -424,7 +434,6 @@
     <orderEntry type="library" name="Gradle: org.jboss.slf4j:slf4j-jboss-logmanager:2.0.0.Final" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:2.0.6" level="project" />
     <orderEntry type="library" name="Gradle: org.wildfly.common:wildfly-common:1.5.4.Final-format-001" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10" level="project" />
     <orderEntry type="library" name="Gradle: software.amazon.awssdk:aws-core:2.20.45" level="project" />
     <orderEntry type="library" name="Gradle: software.amazon.awssdk:auth:2.20.45" level="project" />
     <orderEntry type="library" name="Gradle: software.amazon.awssdk:regions:2.20.45" level="project" />
@@ -491,14 +500,15 @@
     <orderEntry type="library" name="Gradle: io.quarkus:quarkus-bootstrap-app-model:3.0.3.Final" level="project" />
     <orderEntry type="library" name="Gradle: io.smallrye.common:smallrye-common-io:2.1.0" level="project" />
     <orderEntry type="library" name="Gradle: io.github.x-stream:mxparser:1.2.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apiguardian:apiguardian-api:1.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.platform:junit-platform-commons:1.9.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.opentest4j:opentest4j:1.2.0" level="project" />
     <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.15" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpcore:4.4.16" level="project" />
     <orderEntry type="library" name="Gradle: io.rest-assured:rest-assured-common:5.3.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.commons:commons-lang3:3.12.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.groovy:groovy-json:4.0.6" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apiguardian:apiguardian-api:1.1.2" level="project" />
-    <orderEntry type="library" name="Gradle: org.junit.platform:junit-platform-commons:1.9.2" level="project" />
-    <orderEntry type="library" name="Gradle: org.opentest4j:opentest4j:1.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.kotest:kotest-assertions-shared-jvm:5.6.2" level="project" />
     <orderEntry type="library" name="Gradle: jakarta.persistence:jakarta.persistence-api:3.1.0" level="project" />
     <orderEntry type="library" name="Gradle: io.quarkus:quarkus-datasource:3.0.3.Final" level="project" />
     <orderEntry type="library" name="Gradle: io.vertx:vertx-sql-client:4.4.1" level="project" />
@@ -611,6 +621,7 @@
     <orderEntry type="library" name="Gradle: org.codehaus.plexus:plexus-utils:3.5.1" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.sisu:org.eclipse.sisu.inject:0.3.5" level="project" />
     <orderEntry type="library" name="Gradle: org.sonatype.plexus:plexus-cipher:1.7" level="project" />
+    <orderEntry type="library" name="Gradle: io.kotest:kotest-assertions-api-jvm:5.6.2" level="project" />
     <orderEntry type="library" name="Gradle: org.glassfish.jaxb:txw2:4.0.2" level="project" />
     <orderEntry type="library" name="Gradle: com.sun.istack:istack-commons-runtime:4.1.1" level="project" />
     <orderEntry type="library" name="Gradle: io.smallrye.common:smallrye-common-function:2.1.0" level="project" />
@@ -626,6 +637,8 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lz4:lz4-java:1.8.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.xerial.snappy:snappy-java:1.1.8.4" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.github.luben:zstd-jni:1.5.2-1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.kotest:kotest-common-jvm:5.6.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.github.java-diff-utils:java-diff-utils:4.12" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.fasterxml:classmate:1.5.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.antlr:antlr4-runtime:4.10.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.eclipse.angus:angus-activation:2.0.0" level="project" />

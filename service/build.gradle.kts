@@ -25,9 +25,13 @@ dependencies {
     implementation("io.quarkiverse.amazonservices:quarkus-amazon-secretsmanager")
     implementation("io.quarkus:quarkus-resteasy-reactive-kotlin-serialization")
     implementation("io.quarkus:quarkus-arc")
+
+    implementation(project(":lib"))
+
     testImplementation("io.quarkus:quarkus-junit5")
-    testImplementation("io.rest-assured:rest-assured")
+    testImplementation("io.kotest:kotest-assertions-core:5.6.2")
     testImplementation("org.junit.jupiter:junit-jupiter:5.8.1")
+    testImplementation("io.rest-assured:rest-assured")
 }
 
 group = "ch.sonofabit.kafka-kicker.backend.service"

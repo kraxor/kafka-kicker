@@ -2,7 +2,7 @@
 
 # kafka-kicker
 
-This is a tool for breaking your Kafka setup in a reproducible way.
+This is a tool for breaking and fixing your Kafka setup in reproducible ways.
 
 # License
 

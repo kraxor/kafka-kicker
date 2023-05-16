@@ -28,6 +28,7 @@ dependencies {
 testing {
     suites {
         // Configure the built-in test suite
+        @Suppress("UNUSED_VARIABLE")
         val test by getting(JvmTestSuite::class) {
             // Use Kotlin Test test framework
             useKotlinTest("1.8.10")

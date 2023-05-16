@@ -14,6 +14,7 @@
           <stringArguments>
             <stringArg name="classpath">
               <args>
+                <arg>$MODULE_DIR$/../../../lib/build/libs/lib-1.0.0-SNAPSHOT.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-hibernate-reactive-panache-kotlin/3.0.3.Final/e004b28027d5b368fcc946d0c36fe8890fd921f6/quarkus-hibernate-reactive-panache-kotlin-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-resteasy-reactive-kotlin-serialization/3.0.3.Final/297afd34ac84615654a0a034c7d7fe059c55a136/quarkus-resteasy-reactive-kotlin-serialization-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-resteasy-reactive-kotlin-serialization-common/3.0.3.Final/fa5032f24771ea82eb43151368618fa0eec92d5/quarkus-resteasy-reactive-kotlin-serialization-common-3.0.3.Final.jar</arg>
@@ -237,7 +238,7 @@
     </facet>
   </component>
   <component name="NewModuleRootManager">
-    <output url="file://$MODULE_DIR$/../../../service/build/classes/kotlin/main" />
+    <output url="file://$MODULE_DIR$/../../../service/build/classes/java/main" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../service/build/classes/java/quarkus-generated-sources">
       <sourceFolder url="file://$MODULE_DIR$/../../../service/build/classes/java/quarkus-generated-sources" isTestSource="false" />
@@ -252,6 +253,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="kafka-kicker.lib.main" />
     <orderEntry type="library" name="Gradle: io.quarkus:quarkus-hibernate-reactive-panache-kotlin:3.0.3.Final" level="project" />
     <orderEntry type="library" name="Gradle: io.quarkus:quarkus-resteasy-reactive-kotlin-serialization:3.0.3.Final" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10" level="project" />
@@ -448,6 +450,7 @@
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.5.0" level="project" />
     <orderEntry type="library" name="Gradle: io.netty:netty-codec-socks:4.1.90.Final" level="project" />
     <orderEntry type="library" name="Gradle: io.netty:netty-codec-dns:4.1.90.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: javax.inject:javax.inject:1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lz4:lz4-java:1.8.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.xerial.snappy:snappy-java:1.1.8.4" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.github.luben:zstd-jni:1.5.2-1" level="project" />
