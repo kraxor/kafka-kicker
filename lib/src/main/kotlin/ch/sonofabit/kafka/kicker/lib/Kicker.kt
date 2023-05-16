@@ -10,6 +10,8 @@ class Kicker(brokerHost: String = "localhost", brokerPort: Int = 9092) : AutoClo
     init {
         val config = Properties()
         config[AdminClientConfig.BOOTSTRAP_SERVERS_CONFIG] = "$brokerHost:$brokerPort"
+        config[AdminClientConfig.SOCKET_CONNECTION_SETUP_TIMEOUT_MAX_MS_CONFIG] = 3000
+        config[AdminClientConfig.RETRIES_CONFIG] = 2
         adminClient = AdminClient.create(config)
     }
 
