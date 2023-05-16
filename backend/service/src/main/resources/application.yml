@@ -1,0 +1,11 @@
+mp:
+  messaging:
+    outgoing:
+      words-out:
+        topic: "words"
+    incoming:
+      words-in:
+        auto:
+          offset:
+            reset: "earliest"
+        topic: "words"
