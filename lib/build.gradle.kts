@@ -18,6 +18,7 @@ dependencies {
     testImplementation("io.kotest:kotest-assertions-core:5.6.2")
 
     testImplementation("org.testcontainers:testcontainers:1.18.1")
+    testImplementation("org.testcontainers:kafka:1.18.1")
     testImplementation("org.testcontainers:junit-jupiter:1.18.1")
 }
 
