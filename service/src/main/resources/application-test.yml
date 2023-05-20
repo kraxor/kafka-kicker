@@ -1,0 +1,10 @@
+quarkus:
+
+  # noinspection YAMLSchemaValidation
+  devservices:
+    enabled: true
+
+  # noinspection YAMLSchemaValidation
+  kafka:
+    devservices:
+      port: 49092

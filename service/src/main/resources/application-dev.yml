@@ -1,4 +1,4 @@
 quarkus:
   # noinspection YAMLSchemaValidation
   devservices:
-    enabled: false
+    enabled: true
