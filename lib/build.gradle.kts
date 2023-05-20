@@ -14,7 +14,6 @@ repositories {
 dependencies {
     implementation("javax.inject:javax.inject:1")
 
-
     implementation("org.apache.kafka:kafka-clients:3.2.3")
 
     testImplementation(platform("org.junit:junit-bom:5.9.1"))
