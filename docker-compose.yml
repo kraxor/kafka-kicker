@@ -4,8 +4,12 @@ services:
   db:
     image: postgres:alpine
     restart: always
+    ports:
+      - "5432:5432"
     environment:
+      POSTGRES_USER: kafka_kicker
       POSTGRES_PASSWORD: insecure
+      POSTGRES_DB: kafka_kicker
 
   zookeeper:
     extends:

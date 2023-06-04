@@ -2,3 +2,5 @@ quarkus:
   # noinspection YAMLSchemaValidation
   devservices:
     enabled: false
+  datasource:
+    db-kind: postgresql

@@ -1,5 +1,7 @@
 quarkus:
-
+  datasource:
+    devservices:
+      enabled: true
   # noinspection YAMLSchemaValidation
   devservices:
     enabled: true

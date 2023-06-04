@@ -1,11 +1,6 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="kafka-kicker [quarkusDev] (prod)" type="GradleRunConfiguration" factoryName="Gradle">
+  <configuration default="false" name="TEST [quarkusTest]" type="GradleRunConfiguration" factoryName="Gradle">
     <ExternalSystemSettings>
-      <option name="env">
-        <map>
-          <entry key="QUARKUS_PROFILE" value="prod" />
-        </map>
-      </option>
       <option name="executionName" />
       <option name="externalProjectPath" value="$PROJECT_DIR$" />
       <option name="externalSystemIdString" value="GRADLE" />
@@ -15,7 +10,7 @@
       </option>
       <option name="taskNames">
         <list>
-          <option value="quarkusDev" />
+          <option value="quarkusTest" />
         </list>
       </option>
       <option name="vmOptions" />
