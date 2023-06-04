@@ -4,3 +4,6 @@ quarkus:
     enabled: false
   datasource:
     db-kind: postgresql
+  hibernate-orm:
+    database:
+      generation: update

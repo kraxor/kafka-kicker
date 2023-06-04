@@ -4,11 +4,7 @@ quarkus:
     enabled: false
   datasource:
     db-kind: postgresql
-    username: postgres
+    username: kafka_kicker
     password: insecure
     reactive:
-      username: postgres
-      password: insecure
       url: vertx-reactive:postgresql://localhost:5432/kafka_kicker
-    jdbc:
-      enabled: false
