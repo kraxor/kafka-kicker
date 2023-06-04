@@ -17,6 +17,8 @@ class ConnectionResourceTest {
     @Test
     @RunOnVertxContext
     fun `returns 200 when entity is found`(asserter: UniAsserter) {
+        var id: Long? = null
+
         asserter.transactional {
             val connection = Connection().apply {
                 name = "test"
@@ -24,14 +26,14 @@ class ConnectionResourceTest {
             }
 
             assertNotNull { connection.persistAndFlush() }
+            execute { id = connection.id!! }
 
-            execute {
-                When {
-                    get("/connection/${connection.id!!}")
-                }.Then {
-                    statusCode(200)
-                    body(`is`("{\"name\":\"test\",\"bootstrapServers\":\"broker:1337\"}"))
-                }
+        }.execute {
+            When {
+                get("/connection/${id}")
+            }.Then {
+                statusCode(200)
+                body(`is`("{\"name\":\"test\",\"bootstrapServers\":\"broker:1337\"}"))
             }
         }
     }
