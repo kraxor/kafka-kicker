@@ -17,8 +17,6 @@ class ConnectionResourceTest {
     @Test
     @RunOnVertxContext
     fun `returns 200 when entity is found`(asserter: UniAsserter) {
-
-
         asserter.transactional {
             val connection = Connection().apply {
                 name = "test"
@@ -32,7 +30,7 @@ class ConnectionResourceTest {
                     get("/connection/${connection.id!!}")
                 }.Then {
                     statusCode(200)
-                    body(`is`(""))
+                    body(`is`("{\"name\":\"test\",\"bootstrapServers\":\"broker:1337\"}"))
                 }
             }
         }
