@@ -38,44 +38,9 @@ class ConnectionResourceTest {
         }
     }
 
-    //    @Test
-//    @RunOnVertxContext
-    fun `entities can be persisted`(asserter: UniAsserter) {
-//        TransactionalUniAsserterInterceptor(asserter).run {
-//            val connection = Connection().apply {
-//                name = "test"
-//                bootstrapServers = "broker:1337"
-//            }
-//        }
-
-
-        val connection = Connection().apply {
-            name = "test"
-            bootstrapServers = "broker:1337"
-        }
-
-        connection.persist<Connection>()
-
-//        asserter.transactional {
-//            assertNotNull { connection.persist() }
-//        }
-
-
-//        asserter.transactional {}
-    }
-
     class TransactionalAsserter(asserter: UniAsserter) : UniAsserterInterceptor(asserter) {
         override fun <T> transformUni(uniSupplier: Supplier<Uni<T>>): Supplier<Uni<T>> =
             Supplier { Panache.withSession { Panache.withTransaction(uniSupplier) } }
-    }
-
-    class TransactionalUniAsserterInterceptor(asserter: UniAsserter) : UniAsserterInterceptor(asserter) {
-
-        //        @Transactional
-        override fun <T> transformUni(uniSupplier: Supplier<Uni<T>>): Supplier<Uni<T>> {
-            // Assert/execute methods are invoked within a database transaction
-            return Supplier { Panache.withTransaction(uniSupplier) }
-        }
     }
 
     private fun UniAsserter.transactional(block: TransactionalAsserter.() -> Unit) =
