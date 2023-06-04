@@ -13,15 +13,17 @@ import org.junit.jupiter.api.Test
 class ConnectionResourceTest {
     @Test
     @RunOnVertxContext
-    fun `returns 200 when entity is found`(asserter: UniAsserter) {
+    fun `returns 200 when entity is found`(asserter: UniAsserter): Unit = asserter.run {
         val connection = Connection().apply {
             name = "test"
             bootstrapServers = "broker:1337"
         }
 
-        asserter.transactional {
+        transactional {
             assertNotNull { connection.persistAndFlush() }
-        }.execute {
+        }
+
+        execute {
             When {
                 get("/connection/${connection.id}")
             }.Then {
