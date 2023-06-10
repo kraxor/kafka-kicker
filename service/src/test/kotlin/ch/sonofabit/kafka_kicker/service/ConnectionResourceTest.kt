@@ -12,10 +12,17 @@ import io.restassured.module.kotlin.extensions.Then
 import io.restassured.module.kotlin.extensions.When
 import io.restassured.path.json.JsonPath
 import org.hamcrest.CoreMatchers.`is`
+import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
 
 @QuarkusTest
 class ConnectionResourceTest {
+    @BeforeEach
+    @RunOnVertxContext
+    fun beforeEach(asserter: UniAsserter) {
+        asserter.transactional { assertNotNull { Connection.deleteAll() } }
+    }
+
     @Test
     @RunOnVertxContext
     fun `GET returns 200 when record is found`(asserter: UniAsserter): Unit = asserter.run {
@@ -119,5 +126,52 @@ class ConnectionResourceTest {
         execute { When { get("/connection/${connection.id}") }.Then { statusCode(200) } }
         execute { When { delete("/connection/${connection.id}") }.Then { statusCode(204) } }
         execute { When { get("/connection/${connection.id}") }.Then { statusCode(404) } }
+    }
+
+    @Test
+    fun `GET without ID should list all records`() {
+        val connection0 = mapOf(
+            "name" to "first connection",
+            "bootstrapServers" to "broker:1",
+        )
+        val connection1 = mapOf(
+            "name" to "second connection",
+            "bootstrapServers" to "broker:2",
+        )
+
+        val (id0, id1) = listOf(connection0, connection1).map {
+            Given { contentType(JSON); body(it) }.When { post("/connection") }.Extract { JsonPath(asString()).getLong("id") }
+        }
+
+        When {
+            get("/connection/")
+        }.Then {
+            statusCode(200)
+            contentType(JSON)
+        }.Extract { JsonPath(asString()).getList("", Connection::class.java) }.apply {
+            size shouldBe 2
+            get(0).apply {
+                id shouldBe id0
+                name shouldBe connection0["name"]
+                bootstrapServers shouldBe connection0["bootstrapServers"]
+            }
+            get(1).apply {
+                id shouldBe id1
+                name shouldBe connection1["name"]
+                bootstrapServers shouldBe connection1["bootstrapServers"]
+            }
+        }
+    }
+
+    @Test
+    fun `GET without ID should return empty list when there are no records`() {
+        When {
+            get("/connection/")
+        }.Then {
+            statusCode(200)
+            contentType(JSON)
+        }.Extract { JsonPath(asString()).getList("", Connection::class.java) }.apply {
+            size shouldBe 0
+        }
     }
 }
