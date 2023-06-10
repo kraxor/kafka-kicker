@@ -22,7 +22,8 @@ dependencies {
     implementation("io.quarkus:quarkus-smallrye-reactive-messaging-kafka")
 
     implementation("io.quarkus:quarkus-resteasy-reactive")
-    implementation("io.quarkus:quarkus-resteasy-reactive-kotlin-serialization")
+    implementation("io.quarkus:quarkus-resteasy-reactive-jackson")
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("io.quarkus:quarkus-hibernate-reactive-rest-data-panache")
     implementation("io.quarkus:quarkus-hibernate-reactive-panache-kotlin")
 //    implementation("io.quarkus:quarkus-hibernate-reactive")
@@ -43,6 +44,10 @@ dependencies {
 
 group = "ch.sonofabit.kafka-kicker.backend.service"
 version = "1.0-SNAPSHOT"
+
+tasks.named("compileKotlin") {
+    dependsOn(":service:compileQuarkusGeneratedSourcesJava")
+}
 
 tasks.withType<Test> {
     systemProperty("java.util.logging.manager", "org.jboss.logmanager.LogManager")
