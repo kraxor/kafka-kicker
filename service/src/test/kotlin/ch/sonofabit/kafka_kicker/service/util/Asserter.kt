@@ -15,4 +15,3 @@ class Asserter {
 
 fun UniAsserter.transactional(block: Asserter.TransactionalAsserter.() -> Unit) =
     Asserter.TransactionalAsserter(this).block().let { this }
-
