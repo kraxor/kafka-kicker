@@ -27,7 +27,7 @@ class ConnectionResourceTest {
     }
 
     @Test
-    fun `GET returns 200 when record is found`() {
+    fun `GET should return 200 when record is found`() {
         val expected = mapOf(
             "name" to "get me!",
             "bootstrapServers" to "broker:1337",
@@ -45,7 +45,7 @@ class ConnectionResourceTest {
     }
 
     @Test
-    fun `GET returns 404 when record is not found`() {
+    fun `GET should return 404 when record is not found`() {
         When { get("/connection/666") }.Then {
             statusCode(404)
             body(empty())
@@ -53,7 +53,7 @@ class ConnectionResourceTest {
     }
 
     @Test
-    fun `POST returns 201 and record is persisted`() {
+    fun `POST should return 201 and persist record`() {
         val request = mapOf(
             "name" to "persist me!",
             "bootstrapServers" to "broker:1338",
@@ -78,7 +78,7 @@ class ConnectionResourceTest {
     }
 
     @Test
-    fun `PUT returns 204 and record is updated`() {
+    fun `PUT should return 204 and update record`() {
         val id = mapOf(
             "name" to "update me!",
             "bootstrapServers" to "broker:1234",
@@ -105,7 +105,25 @@ class ConnectionResourceTest {
     }
 
     @Test
-    fun `DELETE returns 204 and record is deleted`() {
+    fun `PUT without parameters should return 405`() {
+        val request = mapOf(
+            "id" to "1337",
+            "name" to "something else",
+            "bootstrapServers" to "broker:1336",
+        )
+
+        Given {
+            contentType(JSON)
+            body(request)
+        }.When { put("/connection/") }.Then {
+            statusCode(405)
+            body(empty())
+        }
+        When { delete("/connection/") }.Then { statusCode(405).body(empty()) }
+    }
+
+    @Test
+    fun `DELETE should return 204 and delete record`() {
         val id = mapOf(
             "name" to "get me!",
             "bootstrapServers" to "broker:1337",
@@ -117,7 +135,12 @@ class ConnectionResourceTest {
     }
 
     @Test
-    fun `GET without ID should list all records`() {
+    fun `DELETE without parameters should return 405`() {
+        When { delete("/connection/") }.Then { statusCode(405).body(empty()) }
+    }
+
+    @Test
+    fun `GET without parameters should return all records`() {
         val expected = listOf(
             mapOf(
                 "name" to "first connection",
@@ -147,7 +170,7 @@ class ConnectionResourceTest {
     }
 
     @Test
-    fun `GET without ID should return empty list when there are no records`() {
+    fun `GET without parameters should return empty list when there are no records`() {
         When {
             get("/connection/")
         }.Then {
