@@ -1,6 +1,5 @@
 plugins {
     kotlin("jvm")
-    kotlin("plugin.serialization")
     id("io.quarkus")
 }
 
@@ -53,5 +52,3 @@ tasks.withType<Test> {
     systemProperty("java.util.logging.manager", "org.jboss.logmanager.LogManager")
     useJUnitPlatform()
 }
-
-//annotationProcessor("io.quarkus:quarkus-panache-common")
