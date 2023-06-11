@@ -45,7 +45,7 @@ Start using IntelliJ `TEST [quarkusTest]` or from the terminal `$ ./gradlew quar
 Essentially `quarkusDev` but uses the services defined in `docker-compose.yml` instead of Quarkus Dev Services.
 This is temporary, until a proper production build is configured.
 
-Start using IntelliJ `PROD [quarkusTest]` or the
+Start using IntelliJ `PROD [quarkusDev]` or the
 terminal `$ docker compose up -d && QUARKUS_PROFILE=prod ./gradlew quarkusDev`
 
 # License
