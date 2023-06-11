@@ -20,12 +20,12 @@ dependencies {
     implementation("io.quarkus:quarkus-smallrye-reactive-messaging")
     implementation("io.quarkus:quarkus-smallrye-reactive-messaging-kafka")
 
+    implementation("io.quarkus:quarkus-smallrye-openapi")
     implementation("io.quarkus:quarkus-resteasy-reactive")
     implementation("io.quarkus:quarkus-resteasy-reactive-jackson")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("io.quarkus:quarkus-hibernate-reactive-rest-data-panache")
     implementation("io.quarkus:quarkus-hibernate-reactive-panache-kotlin")
-//    implementation("io.quarkus:quarkus-hibernate-reactive")
     implementation("io.quarkus:quarkus-reactive-pg-client")
 
     implementation(enforcedPlatform("$quarkusPlatformGroupId:quarkus-amazon-services-bom:$quarkusPlatformVersion"))
