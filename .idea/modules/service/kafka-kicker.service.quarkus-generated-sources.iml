@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":service:quarkus-generated-sources" external.linked.project.path="$MODULE_DIR$/../../../service" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="ch.sonofabit.kafka-kicker.backend.service" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+<module version="4">
   <component name="FacetManager">
     <facet external-system-id="GRADLE" type="kotlin-language" name="Kotlin">
-      <configuration version="5" platform="JVM 11" allPlatforms="JVM [11]" useProjectSettings="false">
+      <configuration version="5" platform="JVM 17" allPlatforms="JVM [17]" useProjectSettings="false">
         <compilerSettings>
           <option name="additionalArguments" value="-Xallow-no-source-files" />
         </compilerSettings>
@@ -13,7 +13,7 @@
           </flagArguments>
           <stringArguments>
             <stringArg name="destination" arg="$MODULE_DIR$/../../../service/build/classes/kotlin/quarkus-generated-sources" />
-            <stringArg name="jvmTarget" arg="11" />
+            <stringArg name="jvmTarget" arg="17" />
             <stringArg name="moduleName" arg="service_quarkus-generated-sources" />
             <stringArg name="apiVersion" arg="1.8" />
             <stringArg name="languageVersion" arg="1.8" />
@@ -35,12 +35,5 @@
         </compilerArguments>
       </configuration>
     </facet>
-  </component>
-  <component name="NewModuleRootManager">
-    <output url="file://$MODULE_DIR$/../../../service/build/classes/java/quarkus-generated-sources" />
-    <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../service/src/quarkus-generated-sources" />
-    <orderEntry type="inheritedJdk" />
-    <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

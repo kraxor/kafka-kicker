@@ -1,0 +1,6 @@
+quarkus:
+  # noinspection YAMLSchemaValidation
+  devservices:
+    enabled: true
+  live-reload:
+    instrumentation: true

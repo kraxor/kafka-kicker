@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id=":service:main" external.linked.project.path="$MODULE_DIR$/../../../service" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="ch.sonofabit.kafka-kicker.backend.service" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$/../../../service/build/classes/java/quarkus-generated-sources" dumb="true">
+      <sourceFolder url="file://$MODULE_DIR$/../../../service/build/classes/java/quarkus-generated-sources" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../service/src/main" dumb="true">
+      <sourceFolder url="file://$MODULE_DIR$/../../../service/src/main/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../service/src/main/resources" type="java-resource" />
+    </content>
+  </component>
   <component name="FacetManager">
+    <facet type="Quarkus" name="Quarkus">
+      <configuration />
+    </facet>
     <facet external-system-id="GRADLE" type="kotlin-language" name="Kotlin">
-      <configuration version="5" platform="JVM 11" allPlatforms="JVM [11]" useProjectSettings="false">
+      <configuration version="5" platform="JVM 17" allPlatforms="JVM [17]" useProjectSettings="false">
         <compilerSettings>
           <option name="additionalArguments" value="-Xallow-no-source-files" />
         </compilerSettings>
@@ -16,81 +28,86 @@
               <args>
                 <arg>$MODULE_DIR$/../../../lib/build/libs/lib-1.0.0-SNAPSHOT.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-hibernate-reactive-panache-kotlin/3.0.3.Final/e004b28027d5b368fcc946d0c36fe8890fd921f6/quarkus-hibernate-reactive-panache-kotlin-3.0.3.Final.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-resteasy-reactive-kotlin-serialization/3.0.3.Final/297afd34ac84615654a0a034c7d7fe059c55a136/quarkus-resteasy-reactive-kotlin-serialization-3.0.3.Final.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-resteasy-reactive-kotlin-serialization-common/3.0.3.Final/fa5032f24771ea82eb43151368618fa0eec92d5/quarkus-resteasy-reactive-kotlin-serialization-common-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-kotlin/3.0.3.Final/2e86465cb98414aee545db785830e6442e54386f/quarkus-kotlin-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.reactive/mutiny-kotlin/2.1.0/a3880b850a13af85064cd0c7d31c370afcb9ae4e/mutiny-kotlin-2.1.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.6.4/2c997cd1c0ef33f3e751d3831929aeff1390cb30/kotlinx-coroutines-core-jvm-1.6.4.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-jdk8/1.6.4/5bc4b0bf6fd90fc190fd2f17e919c74c6274cb71/kotlinx-coroutines-jdk8-1.6.4.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.8.10/7c002ac41f547a82e81dfebd2a20577a738dbf3f/kotlin-stdlib-jdk8-1.8.10.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkiverse.amazonservices/quarkus-amazon-ssm/2.0.1/a7a96c14ea00dc63c6809bcc99bc14f16b245bd1/quarkus-amazon-ssm-2.0.1.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-hibernate-reactive-rest-data-panache/3.0.3.Final/2c2131639d4f80163d45747b708d527f46f4cd58/quarkus-hibernate-reactive-rest-data-panache-3.0.3.Final.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-resteasy-reactive-links/3.0.3.Final/5496348a0018e0e400169f0949cc4b73248eba4b/quarkus-resteasy-reactive-links-3.0.3.Final.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-resteasy-reactive/3.0.3.Final/a65f754bb06dde6fd02a518597464ce80aeed6e7/quarkus-resteasy-reactive-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-smallrye-reactive-messaging-kafka/3.0.3.Final/a0d42d4bbb1a151d469bb1302059212a5c25abaa/quarkus-smallrye-reactive-messaging-kafka-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-smallrye-reactive-messaging/3.0.3.Final/51875dda3a76c5aa6030a59baaafe1d018380b36/quarkus-smallrye-reactive-messaging-3.0.3.Final.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-config-yaml/3.0.3.Final/8c1280013e6df4a9f4a84010c1ab8888304035c3/quarkus-config-yaml-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkiverse.amazonservices/quarkus-amazon-secretsmanager/2.0.1/d49f0a3b4f9cb10145482795936c7ef7accfca83/quarkus-amazon-secretsmanager-2.0.1.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkiverse.amazonservices/quarkus-amazon-ssm/2.0.1/a7a96c14ea00dc63c6809bcc99bc14f16b245bd1/quarkus-amazon-ssm-2.0.1.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-hibernate-reactive-rest-data-panache/3.0.3.Final/2c2131639d4f80163d45747b708d527f46f4cd58/quarkus-hibernate-reactive-rest-data-panache-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-hibernate-reactive-panache/3.0.3.Final/931148d1d80102cc33d8c6f8d925c7789a3d8aeb/quarkus-hibernate-reactive-panache-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-hibernate-reactive-panache-common/3.0.3.Final/79e0e4bc71fc55f759093972e976bafff746f9c/quarkus-hibernate-reactive-panache-common-3.0.3.Final.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-reactive-pg-client/3.0.3.Final/53e89a22839595c311158c838093e9273bd05457/quarkus-reactive-pg-client-3.0.3.Final.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-hibernate-reactive/3.0.3.Final/79b4f2fd09d0a428675fc5ed0a30e3fe32528c27/quarkus-hibernate-reactive-3.0.3.Final.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-reactive-datasource/3.0.3.Final/587bd416c84249d9f4eedc08ce60909632405682/quarkus-reactive-datasource-3.0.3.Final.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-resteasy-reactive-jackson/3.0.3.Final/9a6b59d68105e671c499b4a469755ae3a8f5ce20/quarkus-resteasy-reactive-jackson-3.0.3.Final.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-resteasy-reactive-links/3.0.3.Final/5496348a0018e0e400169f0949cc4b73248eba4b/quarkus-resteasy-reactive-links-3.0.3.Final.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-resteasy-reactive/3.0.3.Final/a65f754bb06dde6fd02a518597464ce80aeed6e7/quarkus-resteasy-reactive-3.0.3.Final.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-resteasy-reactive-jackson-common/3.0.3.Final/d52a05dcacebd38a93fcd0001801113f59b01d77/quarkus-resteasy-reactive-jackson-common-3.0.3.Final.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-resteasy-reactive-common/3.0.3.Final/816f85beaa805d6998de14b2cfa0e6be62eb99f9/quarkus-resteasy-reactive-common-3.0.3.Final.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-vertx-http/3.0.3.Final/b692470a909cac90179de3bb553e9d280be97e88/quarkus-vertx-http-3.0.3.Final.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-vertx/3.0.3.Final/727129e533751fcdbfbb545052d55fdf4b90341d/quarkus-vertx-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-kafka-client/3.0.3.Final/3b95ec6864ad45b7091b2a85860c7eb81d94ed6f/quarkus-kafka-client-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-jackson/3.0.3.Final/cb9dafb4abdc51c74860e5882182070cebe79a3a/quarkus-jackson-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-smallrye-reactive-messaging-kotlin/3.0.3.Final/9c814edc53ea4e8f8ac70afeaef01781b0cf2c02/quarkus-smallrye-reactive-messaging-kotlin-3.0.3.Final.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-resteasy-reactive-common/3.0.3.Final/816f85beaa805d6998de14b2cfa0e6be62eb99f9/quarkus-resteasy-reactive-common-3.0.3.Final.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-vertx-http/3.0.3.Final/b692470a909cac90179de3bb553e9d280be97e88/quarkus-vertx-http-3.0.3.Final.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-hibernate-reactive/3.0.3.Final/79b4f2fd09d0a428675fc5ed0a30e3fe32528c27/quarkus-hibernate-reactive-3.0.3.Final.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-reactive-datasource/3.0.3.Final/587bd416c84249d9f4eedc08ce60909632405682/quarkus-reactive-datasource-3.0.3.Final.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-vertx/3.0.3.Final/727129e533751fcdbfbb545052d55fdf4b90341d/quarkus-vertx-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkiverse.amazonservices/quarkus-amazon-common/2.0.1/ea35fb49be659f9701624376dd921e9f3aaa434a/quarkus-amazon-common-2.0.1.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-netty/3.0.3.Final/2dc1cfd312aa598ad40f6d6463069822bde2aaa/quarkus-netty-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-rest-data-panache/3.0.3.Final/b16127d9a0f85e1f48ebfe1ef68c61cb5170d2ac/quarkus-rest-data-panache-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-panache-hibernate-common/3.0.3.Final/c8f2f1e60923067b784a6d39fc11d42c8c5350b7/quarkus-panache-hibernate-common-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-panache-common/3.0.3.Final/acc89c48bf0b4e20fa0423e7ad805001bdc87f77/quarkus-panache-common-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-hal/3.0.3.Final/b1ae15a71a0a07bb2edce998a5ba592b6d34efa6/quarkus-hal-3.0.3.Final.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-datasource/3.0.3.Final/33dcb4a8fd20f06dafda5ad2127f19010ba1d47e/quarkus-datasource-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-mutiny-reactive-streams-operators/3.0.3.Final/d42d517ed3f2055bbeab953e92cd031f88e8ad24/quarkus-mutiny-reactive-streams-operators-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-mutiny/3.0.3.Final/c3d414eccb9a9416d353fabe33a7cfd90f71bc33/quarkus-mutiny-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-smallrye-context-propagation/3.0.3.Final/e684a4a949ab986c829996724cda1af7691a3a9a/quarkus-smallrye-context-propagation-3.0.3.Final.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-datasource/3.0.3.Final/33dcb4a8fd20f06dafda5ad2127f19010ba1d47e/quarkus-datasource-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-arc/3.0.3.Final/e7dbce4bf8932e03cdd5a1588fbfaf5ad1b350dd/quarkus-arc-3.0.3.Final.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.8.10/cb726a23c808a850a43e7d6b9d1ba91b02fe9f05/kotlin-stdlib-jdk7-1.8.10.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.8.10/1e90b778ea4669b6bcbfaca57313665ddd804779/kotlin-reflect-1.8.10.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-core-jvm/1.5.0/d701e8cccd443a7cc1a0bcac53432f2745dcdbda/kotlinx-serialization-core-jvm-1.5.0.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-json-jvm/1.5.0/f2355f60f5c027da0326c8af2d9c724d39aa0ce9/kotlinx-serialization-json-jvm-1.5.0.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.8.10/6d5560a229477df9406943d5feda5618e98eb64c/kotlin-stdlib-1.8.10.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.aayushatharva.brotli4j/brotli4j/1.11.0/433740a817fa558bce73fe7d6efadfa89a29ec40/brotli4j-1.11.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-config-yaml/3.0.3.Final/8c1280013e6df4a9f4a84010c1ab8888304035c3/quarkus-config-yaml-3.0.3.Final.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus.resteasy.reactive/resteasy-reactive-jackson/3.0.3.Final/386ce91ee013dca6bfdbb2de16c8c77b879f209/resteasy-reactive-jackson-3.0.3.Final.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.14.2/796518148a385b2728d44886cc0f8852eb8eeb53/jackson-datatype-jsr310-2.14.2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.14.2/2f3c71211b6ea7a978eba33574d7135d536e07fb/jackson-datatype-jdk8-2.14.2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-parameter-names/2.14.2/2b6c19b3d99dda02915515df879ab9e23fed3864/jackson-module-parameter-names-2.14.2.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus.resteasy.reactive/resteasy-reactive-vertx/3.0.3.Final/1aed568eb93bd5f1a70db15a5caab7f20f91f39b/resteasy-reactive-vertx-3.0.3.Final.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-vertx-http-dev-console-runtime-spi/3.0.3.Final/10bb3497f7b20b05d2e163a1478b7ac9648a3a17/quarkus-vertx-http-dev-console-runtime-spi-3.0.3.Final.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.reactive/smallrye-mutiny-vertx-web/3.3.0/93ad0b5db58d2c8056e34dcfdd50c8bf9476c384/smallrye-mutiny-vertx-web-3.3.0.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-web/4.4.1/98f56a8436094c1ca79c5d6ce25a7b97f285a28f/vertx-web-4.4.1.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.14.2/1e71fddbc80bb86f71a6345ac1e8ab8a00e7134/jackson-databind-2.14.2.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.14.2/a7aae9525864930723e3453ab799521fdfd9d873/jackson-annotations-2.14.2.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.reactive/smallrye-mutiny-vertx-pg-client/3.3.0/9f3fd5e651898a20cd269cfcb013e25e8f372281/smallrye-mutiny-vertx-pg-client-3.3.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-pg-client/4.4.1/4a03ceac3c4e425dfe79f7708230a68b5bbbff35/vertx-pg-client-4.4.1.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.reactive/smallrye-mutiny-vertx-sql-client/3.3.0/950330968b132671bfa22b21a195f82be3055549/smallrye-mutiny-vertx-sql-client-3.3.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-sql-client/4.4.1/49fc19381b770b895e542b58e1f1e582ea55397/vertx-sql-client-4.4.1.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.reactive/smallrye-reactive-messaging-kafka/4.4.0/df01e5d23b32c4b2e41983c84c142b6e82b4ee34/smallrye-reactive-messaging-kafka-4.4.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.reactive/smallrye-reactive-messaging-health/4.4.0/12dec55949c918d407b94c2fe4971aeca190c967/smallrye-reactive-messaging-health-4.4.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.reactive/smallrye-reactive-messaging-otel/4.4.0/f042eddc147e00bed0b51019e4869eb2f69e3a96/smallrye-reactive-messaging-otel-4.4.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.reactive/smallrye-reactive-messaging-provider/4.4.0/9b77e9fee35b0c1ccd9dae9de7793c89ba9ff10d/smallrye-reactive-messaging-provider-4.4.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.common/smallrye-common-vertx-context/2.1.0/66b25435248dafd69526ef4f48d6dd9d4307f9a0/smallrye-common-vertx-context-2.1.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus.resteasy.reactive/resteasy-reactive-vertx/3.0.3.Final/1aed568eb93bd5f1a70db15a5caab7f20f91f39b/resteasy-reactive-vertx-3.0.3.Final.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.reactive/smallrye-mutiny-vertx-web/3.3.0/93ad0b5db58d2c8056e34dcfdd50c8bf9476c384/smallrye-mutiny-vertx-web-3.3.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.reactive/smallrye-mutiny-vertx-web-common/3.3.0/654420201d76db2c4b9b902c1064f0b3e03d3443/smallrye-mutiny-vertx-web-common-3.3.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.reactive/smallrye-mutiny-vertx-auth-common/3.3.0/fc6c743fd18d66db0b24fe72248d1a87038e80f6/smallrye-mutiny-vertx-auth-common-3.3.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.reactive/smallrye-mutiny-vertx-bridge-common/3.3.0/931434191bf80309c92ae46c7611f38c648a1e37/smallrye-mutiny-vertx-bridge-common-3.3.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.reactive/smallrye-mutiny-vertx-uri-template/3.3.0/e51fa2855a492aa22c566f91bc77584fe4c881c3/smallrye-mutiny-vertx-uri-template-3.3.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.reactive/smallrye-mutiny-vertx-core/3.3.0/1c4b32a488764b384e870f0189883275d77a7c72/smallrye-mutiny-vertx-core-3.3.0.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.common/smallrye-common-vertx-context/2.1.0/66b25435248dafd69526ef4f48d6dd9d4307f9a0/smallrye-common-vertx-context-2.1.0.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-sql-client/4.4.1/49fc19381b770b895e542b58e1f1e582ea55397/vertx-sql-client-4.4.1.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-vertx-http-dev-console-runtime-spi/3.0.3.Final/10bb3497f7b20b05d2e163a1478b7ac9648a3a17/quarkus-vertx-http-dev-console-runtime-spi-3.0.3.Final.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-web/4.4.1/98f56a8436094c1ca79c5d6ce25a7b97f285a28f/vertx-web-4.4.1.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.reactive/vertx-mutiny-generator/3.3.0/15bcd8d038e28fc576b5872e9b78225087f22493/vertx-mutiny-generator-3.3.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.reactive/smallrye-mutiny-vertx-runtime/3.3.0/e65a23d464eee699516fbf4ffae2623b7e3ddc72/smallrye-mutiny-vertx-runtime-3.3.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-web-common/4.4.1/a7acf609648223cfacc89acf453bc8427e6e9d33/vertx-web-common-4.4.1.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-auth-common/4.4.1/cb2ad6db48ed34dca95b9e18a4dcf6def56ea88e/vertx-auth-common-4.4.1.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-bridge-common/4.4.1/6b327732050085427e7d8d9c9a82488022589169/vertx-bridge-common-4.4.1.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.reactive/vertx-mutiny-generator/3.3.0/15bcd8d038e28fc576b5872e9b78225087f22493/vertx-mutiny-generator-3.3.0.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.reactive/smallrye-mutiny-vertx-runtime/3.3.0/e65a23d464eee699516fbf4ffae2623b7e3ddc72/smallrye-mutiny-vertx-runtime-3.3.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-uri-template/4.4.1/3bdfe7d76218130f804f25aa7c3ace81284ad09b/vertx-uri-template-4.4.1.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-core/4.4.1/b273a9fd14ebb234c208bf6be08e8cea9a823d0a/vertx-core-4.4.1.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-codegen/4.4.1/e099871567a627268fcb3c39b2dbe5836e1e10f8/vertx-codegen-4.4.1.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.14.2/f804090e6399ce0cf78242db086017512dd71fcc/jackson-core-2.14.2.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.14.2/796518148a385b2728d44886cc0f8852eb8eeb53/jackson-datatype-jsr310-2.14.2.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.14.2/1e71fddbc80bb86f71a6345ac1e8ab8a00e7134/jackson-databind-2.14.2.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.14.2/a7aae9525864930723e3453ab799521fdfd9d873/jackson-annotations-2.14.2.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-kotlin/2.14.2/eef6cbd3236664588e646157093d1266bf2d6279/jackson-module-kotlin-2.14.2.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.8.10/cb726a23c808a850a43e7d6b9d1ba91b02fe9f05/kotlin-stdlib-jdk7-1.8.10.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.8.10/1e90b778ea4669b6bcbfaca57313665ddd804779/kotlin-reflect-1.8.10.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.8.10/6d5560a229477df9406943d5feda5618e98eb64c/kotlin-stdlib-1.8.10.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.aayushatharva.brotli4j/brotli4j/1.11.0/433740a817fa558bce73fe7d6efadfa89a29ec40/brotli4j-1.11.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-hibernate-orm/3.0.3.Final/4a0b50736a3b1b8bce4da659938c69bb7d5b57cd/quarkus-hibernate-orm-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-caffeine/3.0.3.Final/e5600517e0dd3b65299bce8d1f35436308e2da16/quarkus-caffeine-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ben-manes.caffeine/caffeine/3.1.5/566c9b18953d9c7e916ab6823bf404899dccfefd/caffeine-3.1.5.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.18.0/89b684257096f548fa39a7df9fdaa409d4d4df91/error_prone_annotations-2.18.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ongres.scram/client/2.1/4ab4f013dce4ce2bdf315e3cfef529bdc2b6a5d1/client-2.1.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-jsonp/3.0.3.Final/c54b5b35346115c66f7367512eec66180f929030/quarkus-jsonp-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-security-runtime-spi/3.0.3.Final/2cb165f1f31aad5d8b475cbc96cbe0ea7f881908/quarkus-security-runtime-spi-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-core/3.0.3.Final/e0ed15726a4f734004a3cb4c6cd28677fbae367f/quarkus-core-3.0.3.Final.jar</arg>
@@ -205,16 +222,19 @@
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/endpoints-spi/2.20.45/cc65fa52e5ad975bf0ec31a7bd0c63022513e731/endpoints-spi-2.20.45.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/annotations/2.20.45/c46f3eacb8573b8e52a9ee9d9d01f8fbfae5375b/annotations-2.20.45.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/third-party-jackson-core/2.20.45/d305f047dc2f12478afa9e242bf18fccab40cb6c/third-party-jackson-core-2.20.45.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ongres.scram/common/2.1/43dfdba15afc165a2a5da75f3ef1a2f5f7300f61/common-2.1.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.reactive/mutiny-zero/1.0.0/6858179d48229c470a85395eaeb79dc0efded48/mutiny-zero-1.0.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/jakarta.enterprise/jakarta.enterprise.lang-model/4.0.1/2b195781faad31c1724d8122136909c34c3ae79e/jakarta.enterprise.lang-model-4.0.1.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ongres.stringprep/saslprep/1.1/eaf05b6446126f95de2f183b91751a854c2fc0bc/saslprep-1.1.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/software.amazon.eventstream/eventstream/1.0.1/6ff8649dffc5190366ada897ba8525a836297784/eventstream-1.0.1.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.aayushatharva.brotli4j/service/1.11.0/cd074e2fd02c85bce11ee63cc24b00dcb626d983/service-1.11.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ongres.stringprep/stringprep/1.1/9149e6d6f97be4c2b641c89ea569cb4fde872972/stringprep-1.1.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/txw2/4.0.2/24e167be69c29ebb7ee0a3b1f9b546f1dfd111fc/txw2-4.0.2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.istack/istack-commons-runtime/4.1.1/9b3769c76235bc283b060da4fae2318c6d53f07e/istack-commons-runtime-4.1.1.jar</arg>
               </args>
             </stringArg>
             <stringArg name="destination" arg="$MODULE_DIR$/../../../service/build/classes/kotlin/main" />
-            <stringArg name="jvmTarget" arg="11" />
+            <stringArg name="jvmTarget" arg="17" />
             <stringArg name="moduleName" arg="service" />
             <stringArg name="apiVersion" arg="1.8" />
             <stringArg name="languageVersion" arg="1.8" />
@@ -236,227 +256,5 @@
         </compilerArguments>
       </configuration>
     </facet>
-  </component>
-  <component name="NewModuleRootManager">
-    <output url="file://$MODULE_DIR$/../../../service/build/classes/java/main" />
-    <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../service/build/classes/java/quarkus-generated-sources">
-      <sourceFolder url="file://$MODULE_DIR$/../../../service/build/classes/java/quarkus-generated-sources" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../service/build/classes/java/quarkus-generated-sources/avdl" />
-    <content url="file://$MODULE_DIR$/../../../service/build/classes/java/quarkus-generated-sources/avpr" />
-    <content url="file://$MODULE_DIR$/../../../service/build/classes/java/quarkus-generated-sources/avsc" />
-    <content url="file://$MODULE_DIR$/../../../service/build/classes/java/quarkus-generated-sources/grpc" />
-    <content url="file://$MODULE_DIR$/../../../service/src/main">
-      <sourceFolder url="file://$MODULE_DIR$/../../../service/src/main/kotlin" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../service/src/main/resources" type="java-resource" />
-    </content>
-    <orderEntry type="inheritedJdk" />
-    <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="kafka-kicker.lib.main" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-hibernate-reactive-panache-kotlin:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-resteasy-reactive-kotlin-serialization:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkiverse.amazonservices:quarkus-amazon-ssm:2.0.1" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-hibernate-reactive-rest-data-panache:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-resteasy-reactive:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-smallrye-reactive-messaging-kafka:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-smallrye-reactive-messaging:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-config-yaml:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkiverse.amazonservices:quarkus-amazon-secretsmanager:2.0.1" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-arc:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-kotlin:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-hibernate-reactive-panache:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-hibernate-reactive-panache-common:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-hibernate-reactive:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-core:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye.common:smallrye-common-annotation:2.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-resteasy-reactive-kotlin-serialization-common:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.10" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.8.10" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkiverse.amazonservices:quarkus-amazon-common:2.0.1" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-netty:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: org.jboss.logging:commons-logging-jboss-logging:1.0.0.Final" level="project" />
-    <orderEntry type="library" name="Gradle: software.amazon.awssdk:ssm:2.20.45" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-resteasy-reactive-links:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-rest-data-panache:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-resteasy-reactive-common:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-vertx-http:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus.resteasy.reactive:resteasy-reactive-vertx:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-jsonp:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-kafka-client:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-jackson:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye.reactive:smallrye-reactive-messaging-kafka:4.4.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye.reactive:smallrye-reactive-messaging-provider:4.4.0" level="project" />
-    <orderEntry type="library" name="Gradle: jakarta.annotation:jakarta.annotation-api:2.1.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.kafka:kafka-clients:3.4.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-smallrye-reactive-messaging-kotlin:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-vertx:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-mutiny-reactive-streams-operators:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye.reactive:smallrye-reactive-messaging-health:4.4.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye.config:smallrye-config-source-yaml:3.2.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.microprofile.config:microprofile-config-api:3.0.3" level="project" />
-    <orderEntry type="library" name="Gradle: software.amazon.awssdk:secretsmanager:2.20.45" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus.arc:arc:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.microprofile.context-propagation:microprofile-context-propagation-api:1.3" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye.reactive:mutiny-kotlin:2.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.6.4" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.8.10" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye:smallrye-fault-tolerance-kotlin:6.2.2" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:24.0.1" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-panache-hibernate-common:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-panache-common:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-reactive-datasource:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-mutiny:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-hibernate-orm:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: org.hibernate.reactive:hibernate-reactive-core:2.0.0.CR1" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-bootstrap-runner:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-development-mode-spi:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-fs-util:0.0.9" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-ide-launcher:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye.config:smallrye-config:3.2.1" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye.common:smallrye-common-os:2.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: jakarta.enterprise:jakarta.enterprise.cdi-api:4.0.1" level="project" />
-    <orderEntry type="library" name="Gradle: jakarta.inject:jakarta.inject-api:2.0.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.graalvm.sdk:graal-sdk:22.3.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.jboss.logging:jboss-logging-annotations:2.2.1.Final" level="project" />
-    <orderEntry type="library" name="Gradle: org.jboss.threads:jboss-threads:3.5.0.Final" level="project" />
-    <orderEntry type="library" name="Gradle: org.jboss.logging:jboss-logging:3.5.0.Final" level="project" />
-    <orderEntry type="library" name="Gradle: org.jboss.logmanager:jboss-logmanager-embedded:1.1.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.jboss.slf4j:slf4j-jboss-logmanager:2.0.0.Final" level="project" />
-    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:2.0.6" level="project" />
-    <orderEntry type="library" name="Gradle: org.wildfly.common:wildfly-common:1.5.4.Final-format-001" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10" level="project" />
-    <orderEntry type="library" name="Gradle: software.amazon.awssdk:aws-core:2.20.45" level="project" />
-    <orderEntry type="library" name="Gradle: software.amazon.awssdk:auth:2.20.45" level="project" />
-    <orderEntry type="library" name="Gradle: software.amazon.awssdk:regions:2.20.45" level="project" />
-    <orderEntry type="library" name="Gradle: software.amazon.awssdk:sdk-core:2.20.45" level="project" />
-    <orderEntry type="library" name="Gradle: software.amazon.awssdk:http-client-spi:2.20.45" level="project" />
-    <orderEntry type="library" name="Gradle: com.aayushatharva.brotli4j:brotli4j:1.11.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http2:4.1.90.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http:4.1.90.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-handler:4.1.90.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-codec:4.1.90.Final" level="project" />
-    <orderEntry type="library" name="Gradle: software.amazon.awssdk:aws-json-protocol:2.20.45" level="project" />
-    <orderEntry type="library" name="Gradle: software.amazon.awssdk:protocol-core:2.20.45" level="project" />
-    <orderEntry type="library" name="Gradle: software.amazon.awssdk:metrics-spi:2.20.45" level="project" />
-    <orderEntry type="library" name="Gradle: software.amazon.awssdk:json-utils:2.20.45" level="project" />
-    <orderEntry type="library" name="Gradle: software.amazon.awssdk:utils:2.20.45" level="project" />
-    <orderEntry type="library" name="Gradle: software.amazon.awssdk:endpoints-spi:2.20.45" level="project" />
-    <orderEntry type="library" name="Gradle: software.amazon.awssdk:annotations:2.20.45" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-hal:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: jakarta.validation:jakarta.validation-api:3.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: jakarta.ws.rs:jakarta.ws.rs-api:3.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus.resteasy.reactive:resteasy-reactive-common:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-vertx-http-dev-console-runtime-spi:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye.reactive:smallrye-mutiny-vertx-web:3.3.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.vertx:vertx-web:4.4.1" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye.common:smallrye-common-vertx-context:2.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-security-runtime-spi:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.github.crac:org-crac:0.1.3" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-credentials:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus.security:quarkus-security:2.0.2.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye.reactive:smallrye-mutiny-vertx-core:3.3.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus.resteasy.reactive:resteasy-reactive:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: jakarta.xml.bind:jakarta.xml.bind-api:4.0.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.parsson:parsson:1.1.1" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-caffeine:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.14.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.module:jackson-module-parameter-names:2.14.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.14.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.14.2" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye.reactive:smallrye-reactive-messaging-otel:4.4.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye.reactive:smallrye-reactive-messaging-kafka-api:4.4.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye.reactive:mutiny:2.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye.reactive:mutiny-zero-flow-adapters:1.0.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye.reactive:smallrye-reactive-converter-api:3.0.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye.reactive:mutiny-zero:1.0.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye.reactive:smallrye-reactive-messaging-api:4.4.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-codec-haproxy:4.1.90.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-vertx-latebound-mdc-provider:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye:smallrye-fault-tolerance-vertx:6.2.2" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-smallrye-context-propagation:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye.reactive:mutiny-reactive-streams-operators:2.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye.reactive:mutiny-smallrye-context-propagation:2.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.microprofile.reactive-streams-operators:microprofile-reactive-streams-operators-core:3.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.microprofile.reactive-streams-operators:microprofile-reactive-streams-operators-api:3.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.microprofile.health:microprofile-health-api:4.0.1" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye.config:smallrye-config-common:3.2.1" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye.common:smallrye-common-constraint:2.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.yaml:snakeyaml:2.0" level="project" />
-    <orderEntry type="library" name="Gradle: jakarta.transaction:jakarta.transaction-api:2.0.1" level="project" />
-    <orderEntry type="library" name="Gradle: jakarta.persistence:jakarta.persistence-api:3.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-datasource:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.vertx:vertx-sql-client:4.4.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.glassfish.jaxb:jaxb-runtime:4.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: org.hibernate.orm:hibernate-core:6.2.1.Final" level="project" />
-    <orderEntry type="library" name="Gradle: net.bytebuddy:byte-buddy:1.12.18" level="project" />
-    <orderEntry type="library" name="Gradle: org.hibernate.common:hibernate-commons-annotations:6.0.6.Final" level="project" />
-    <orderEntry type="library" name="Gradle: org.hibernate.orm:hibernate-graalvm:6.2.1.Final" level="project" />
-    <orderEntry type="library" name="Gradle: org.hibernate:quarkus-local-cache:0.2.1" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye.common:smallrye-common-io:2.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye.config:smallrye-config-core:3.2.1" level="project" />
-    <orderEntry type="library" name="Gradle: jakarta.el:jakarta.el-api:5.0.1" level="project" />
-    <orderEntry type="library" name="Gradle: jakarta.interceptor:jakarta.interceptor-api:2.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: jakarta.enterprise:jakarta.enterprise.lang-model:4.0.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.5.0" level="project" />
-    <orderEntry type="library" name="Gradle: software.amazon.awssdk:profiles:2.20.45" level="project" />
-    <orderEntry type="library" name="Gradle: software.amazon.eventstream:eventstream:1.0.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.reactivestreams:reactive-streams:1.0.4" level="project" />
-    <orderEntry type="library" name="Gradle: com.aayushatharva.brotli4j:service:1.11.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-transport:4.1.90.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-buffer:4.1.90.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-common:4.1.90.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-unix-common:4.1.90.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-resolver:4.1.90.Final" level="project" />
-    <orderEntry type="library" name="Gradle: software.amazon.awssdk:third-party-jackson-core:2.20.45" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus.resteasy.reactive:resteasy-reactive-common-types:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye.reactive:smallrye-mutiny-vertx-web-common:3.3.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye.reactive:smallrye-mutiny-vertx-auth-common:3.3.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye.reactive:smallrye-mutiny-vertx-bridge-common:3.3.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye.reactive:smallrye-mutiny-vertx-uri-template:3.3.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.vertx:vertx-web-common:4.4.1" level="project" />
-    <orderEntry type="library" name="Gradle: io.vertx:vertx-auth-common:4.4.1" level="project" />
-    <orderEntry type="library" name="Gradle: io.vertx:vertx-bridge-common:4.4.1" level="project" />
-    <orderEntry type="library" name="Gradle: io.vertx:vertx-core:4.4.1" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye.reactive:vertx-mutiny-generator:3.3.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye.reactive:smallrye-mutiny-vertx-runtime:3.3.0" level="project" />
-    <orderEntry type="library" name="Gradle: jakarta.activation:jakarta.activation-api:2.1.1" level="project" />
-    <orderEntry type="library" name="Gradle: jakarta.json:jakarta.json-api:2.1.1" level="project" />
-    <orderEntry type="library" name="Gradle: com.github.ben-manes.caffeine:caffeine:3.1.5" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.14.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.14.2" level="project" />
-    <orderEntry type="library" name="Gradle: io.opentelemetry.instrumentation:opentelemetry-instrumentation-api-semconv:1.23.0-alpha" level="project" />
-    <orderEntry type="library" name="Gradle: io.opentelemetry.instrumentation:opentelemetry-instrumentation-api:1.23.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.opentelemetry:opentelemetry-semconv:1.23.0-alpha" level="project" />
-    <orderEntry type="library" name="Gradle: io.opentelemetry:opentelemetry-api:1.23.1" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye:smallrye-context-propagation:2.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye.common:smallrye-common-classloader:2.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4" level="project" />
-    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-datasource-common:3.0.3.Final" level="project" />
-    <orderEntry type="library" name="Gradle: org.glassfish.jaxb:jaxb-core:4.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye.common:smallrye-common-expression:2.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.vertx:vertx-uri-template:4.4.1" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-handler-proxy:4.1.90.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-resolver-dns:4.1.90.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.vertx:vertx-codegen:4.4.1" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.errorprone:error_prone_annotations:2.18.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.opentelemetry:opentelemetry-context:1.23.1" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye:smallrye-context-propagation-api:2.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye:smallrye-context-propagation-storage:2.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.glassfish.jaxb:txw2:4.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.sun.istack:istack-commons-runtime:4.1.1" level="project" />
-    <orderEntry type="library" name="Gradle: io.smallrye.common:smallrye-common-function:2.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.5.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-codec-socks:4.1.90.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-codec-dns:4.1.90.Final" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: javax.inject:javax.inject:1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lz4:lz4-java:1.8.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.xerial.snappy:snappy-java:1.1.8.4" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.github.luben:zstd-jni:1.5.2-1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.fasterxml:classmate:1.5.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.smallrye:jandex:3.0.5" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.antlr:antlr4-runtime:4.10.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.eclipse.angus:angus-activation:2.0.0" level="project" />
   </component>
 </module>

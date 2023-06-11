@@ -1,0 +1,10 @@
+quarkus:
+  # noinspection YAMLSchemaValidation
+  devservices:
+    enabled: false
+  datasource:
+    db-kind: postgresql
+    username: kafka_kicker
+    password: insecure
+    reactive:
+      url: vertx-reactive:postgresql://localhost:5432/kafka_kicker

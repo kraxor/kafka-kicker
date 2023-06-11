@@ -1,4 +1,9 @@
 quarkus:
-  kafka:
-    devservices:
-      port: 49092
+  # noinspection YAMLSchemaValidation
+  devservices:
+    enabled: false
+  datasource:
+    db-kind: postgresql
+  hibernate-orm:
+    database:
+      generation: update
