@@ -28,7 +28,7 @@ abstract class ConnectionResourceTest {
     protected fun empty(): Matcher<String> = `is`("")
 
     protected fun getAndExtract(id: Long): Connection =
-        When { get("/connection/${id}") }.Extract { `as`(Connection::class.java) }
+        When { get("/connection/${id}") }.Extract { connection() }
 
     protected fun Map<String, String>.postAndExtract() = let { request ->
         Given { body(request).contentType(JSON) }.When { post("/connection/") }.Extract { connection() }

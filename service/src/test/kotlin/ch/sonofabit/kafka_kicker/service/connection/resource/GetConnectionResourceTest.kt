@@ -36,5 +36,4 @@ class GetConnectionResourceTest : ConnectionResourceTest() {
             body(empty())
         }
     }
-
 }

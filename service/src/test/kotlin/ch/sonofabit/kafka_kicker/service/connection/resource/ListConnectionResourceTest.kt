@@ -1,6 +1,5 @@
 package ch.sonofabit.kafka_kicker.service.connection.resource
 
-import ch.sonofabit.kafka_kicker.service.Connection
 import io.kotest.matchers.shouldBe
 import io.quarkus.test.junit.QuarkusTest
 import io.restassured.http.ContentType.JSON
@@ -32,8 +31,8 @@ class ListConnectionResourceTest : ConnectionResourceTest() {
             contentType(JSON)
         }.Extract { connections() }.apply {
             size shouldBe 2
-            forEachIndexed { index, response ->
-                response.apply {
+            forEachIndexed { index, connection ->
+                connection.apply {
                     id shouldBe expectedId[index]
                     name shouldBe expected[index]["name"]
                     bootstrapServers shouldBe expected[index]["bootstrapServers"]
@@ -49,8 +48,10 @@ class ListConnectionResourceTest : ConnectionResourceTest() {
         }.Then {
             statusCode(200)
             contentType(JSON)
-        }.Extract { jsonPath().getList("", Connection::class.java) }.apply {
+        }.Extract { connections() }.apply {
             size shouldBe 0
         }
     }
+
+    // TODO test pagination
 }
