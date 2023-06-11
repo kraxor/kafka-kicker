@@ -5,13 +5,15 @@
 A tool for breaking and fixing your Kafka setup in reproducible ways.
 
 Tech stack TLDR:
-* Kotlin
-* Apache Kafka
-* Quarkus 3
-  * RESTEasy Reactive
-  * Hibernate Reactive REST Data with Panache
-* Postgres
-* Docker
+* Gradle 8.1.1
+* Kotlin 1.8.10
+* Apache Kafka 3.2.3
+* Quarkus 3.0.3.Final
+    * RESTEasy Reactive
+    * Hibernate Reactive REST Data with Panache
+    * Smallrye OpenAPI (OpenAPI V3)
+* Postgres (latest alpine)
+* Docker (Compose V2)
 
 # Quick Start
 
@@ -32,7 +34,6 @@ Start using IntelliJ `DEV [quarkusDev]` or from the terminal `$ ./gradlew quarku
 Dev UI: http://localhost:8080/q/dev
 
 Swagger UI: http://localhost:8080/q/swagger-ui
-
 
 ### Continuous testing
 
