@@ -28,6 +28,7 @@
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.kotest/kotest-assertions-shared-jvm/5.6.2/5238bd7d3ae8a0801536602a5c27e1b368abb2d0/kotest-assertions-shared-jvm-5.6.2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.kotest/kotest-assertions-api-jvm/5.6.2/38eb14f47f6add08ae2f9927adb1d3af6abb4aad/kotest-assertions-api-jvm-5.6.2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.8.10/7c002ac41f547a82e81dfebd2a20577a738dbf3f/kotlin-stdlib-jdk8-1.8.10.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-smallrye-openapi/3.0.3.Final/8f07d02a2a09cf882d463c8434dff0e9a79d06d3/quarkus-smallrye-openapi-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-smallrye-reactive-messaging-kafka/3.0.3.Final/a0d42d4bbb1a151d469bb1302059212a5c25abaa/quarkus-smallrye-reactive-messaging-kafka-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-smallrye-reactive-messaging/3.0.3.Final/51875dda3a76c5aa6030a59baaafe1d018380b36/quarkus-smallrye-reactive-messaging-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkiverse.amazonservices/quarkus-amazon-secretsmanager/2.0.1/d49f0a3b4f9cb10145482795936c7ef7accfca83/quarkus-amazon-secretsmanager-2.0.1.jar</arg>
@@ -44,6 +45,7 @@
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-resteasy-reactive/3.0.3.Final/a65f754bb06dde6fd02a518597464ce80aeed6e7/quarkus-resteasy-reactive-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-resteasy-reactive-jackson-common/3.0.3.Final/d52a05dcacebd38a93fcd0001801113f59b01d77/quarkus-resteasy-reactive-jackson-common-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-resteasy-reactive-common/3.0.3.Final/816f85beaa805d6998de14b2cfa0e6be62eb99f9/quarkus-resteasy-reactive-common-3.0.3.Final.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-swagger-ui/3.0.3.Final/6a94ea708280485620c51c79cd037a16874090f6/quarkus-swagger-ui-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-vertx-http/3.0.3.Final/b692470a909cac90179de3bb553e9d280be97e88/quarkus-vertx-http-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-vertx/3.0.3.Final/727129e533751fcdbfbb545052d55fdf4b90341d/quarkus-vertx-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-kafka-client/3.0.3.Final/3b95ec6864ad45b7091b2a85860c7eb81d94ed6f/quarkus-kafka-client-3.0.3.Final.jar</arg>
@@ -61,7 +63,9 @@
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-smallrye-context-propagation/3.0.3.Final/e684a4a949ab986c829996724cda1af7691a3a9a/quarkus-smallrye-context-propagation-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-arc/3.0.3.Final/e7dbce4bf8932e03cdd5a1588fbfaf5ad1b350dd/quarkus-arc-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-config-yaml/3.0.3.Final/8c1280013e6df4a9f4a84010c1ab8888304035c3/quarkus-config-yaml-3.0.3.Final.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye/smallrye-open-api-core/3.3.4/c84bbe4210b39e28b8b0686ceac5ecd910b0044a/smallrye-open-api-core-3.3.4.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus.resteasy.reactive/resteasy-reactive-jackson/3.0.3.Final/386ce91ee013dca6bfdbb2de16c8c77b879f209/resteasy-reactive-jackson-3.0.3.Final.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.14.2/cc9a25c1f4212562dcb2fa33dd8ae179ba0e6a4e/jackson-dataformat-yaml-2.14.2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.14.2/796518148a385b2728d44886cc0f8852eb8eeb53/jackson-datatype-jsr310-2.14.2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.14.2/2f3c71211b6ea7a978eba33574d7135d536e07fb/jackson-datatype-jdk8-2.14.2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-parameter-names/2.14.2/2b6c19b3d99dda02915515df879ab9e23fed3864/jackson-module-parameter-names-2.14.2.jar</arg>
@@ -252,6 +256,7 @@
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.microprofile.config/microprofile-config-api/3.0.3/6eebba974a4fc34678679a061ac6ef25b2590749/microprofile-config-api-3.0.3.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.microprofile.context-propagation/microprofile-context-propagation-api/1.3/aab6a415754137629e725a9927702a5cd68038c2/microprofile-context-propagation-api-1.3.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.microprofile.health/microprofile-health-api/4.0.1/395ea08f4f636696fb23b84a18ba81430cfebe7c/microprofile-health-api-4.0.1.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.microprofile.openapi/microprofile-openapi-api/3.1/72eaf7f12aa8810f99d7e21e8769534e4fefd873/microprofile-openapi-api-3.1.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.microprofile.reactive-streams-operators/microprofile-reactive-streams-operators-core/3.0/bc234c712ab27b967beade1e5b9f0fca522baa42/microprofile-reactive-streams-operators-core-3.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.microprofile.reactive-streams-operators/microprofile-reactive-streams-operators-api/3.0/254af64a4449279b85565baa1bd53d9e68f9804f/microprofile-reactive-streams-operators-api-3.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.sisu/org.eclipse.sisu.inject/0.3.5/d4265dd4f0f1d7a06d80df5a5f475d5ff9c17140/org.eclipse.sisu.inject-0.3.5.jar</arg>
