@@ -19,3 +19,5 @@ include("cli")
 
 include("service")
 apply(from = "service/settings.gradle.kts")
+
+include("sdk")
