@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
+import {useEffect, useState} from 'react';
 import './App.css';
+import {Connection, ConnectionResourceApi} from '@kafka-kicker/typescript-axios'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+    const [connections, setConnections] = useState<Connection[]>([])
+
+    const api = new ConnectionResourceApi()
+
+    useEffect(() => {
+        const listAll = async () => {
+            console.log("doing it")
+            const result = await api.connectionGet()
+            console.log(result)
+            console.log("done it")
+        }
+
+        listAll().then(r => console.log("all done"))
+    }, [])
+
+    return (<div>connection count: ${connections.length}</div>);
 }
 
 export default App;

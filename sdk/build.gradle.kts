@@ -21,6 +21,7 @@ fun TaskContainer.registerClientSdk(name: String, config: GenerateTask.() -> Uni
 
 tasks.registerClientSdk("kotlin") {}
 tasks.registerClientSdk("typescript-fetch") {}
+tasks.registerClientSdk("typescript-axios") {}
 
 repositories {
     mavenCentral()
