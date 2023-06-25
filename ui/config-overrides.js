@@ -13,6 +13,5 @@ module.exports = function override(config, env) {
         return rule;
     });
 
-    console.log(JSON.stringify(config, null, 2))
     return config;
 };

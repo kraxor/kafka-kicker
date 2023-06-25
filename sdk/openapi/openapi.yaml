@@ -4,10 +4,7 @@ info:
   title: service API
   version: 1.0-SNAPSHOT
 servers:
-- url: http://localhost:8080
-  description: Auto generated value
-- url: http://0.0.0.0:8080
-  description: Auto generated value
+- url: http://localhost:8080/
 tags:
 - name: ConnectionResource
 paths:
