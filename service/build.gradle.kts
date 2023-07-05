@@ -1,3 +1,6 @@
+group = "ch.sonofabit.kafka-kicker"
+version = "1.0-SNAPSHOT"
+
 plugins {
     kotlin("jvm")
     id("io.quarkus")
@@ -14,7 +17,7 @@ val quarkusPlatformVersion: String by project
 
 dependencies {
     // internal
-    implementation(project(":lib"))
+    implementation(project(":core"))
 
     // Quarkus / core
     implementation(enforcedPlatform("$quarkusPlatformGroupId:$quarkusPlatformArtifactId:$quarkusPlatformVersion"))
@@ -44,9 +47,6 @@ dependencies {
     implementation("io.quarkiverse.amazonservices:quarkus-amazon-ssm")
     implementation("io.quarkiverse.amazonservices:quarkus-amazon-secretsmanager")
 }
-
-group = "ch.sonofabit.kafka-kicker.backend.service"
-version = "1.0-SNAPSHOT"
 
 tasks.named("compileKotlin") {
     dependsOn(":service:compileQuarkusGeneratedSourcesJava")

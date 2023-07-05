@@ -22,15 +22,13 @@ repositories {
 dependencies {
     // This dependency is used by the application.
     implementation("com.google.guava:guava:31.1-jre")
-    implementation(project(":lib"))
+    implementation(project(":core"))
 }
 
 testing {
     suites {
         // Configure the built-in test suite
-        @Suppress("UNUSED_VARIABLE")
-        val test by getting(JvmTestSuite::class) {
-            // Use Kotlin Test test framework
+        @Suppress("UnstableApiUsage", "UNUSED_VARIABLE") val test by getting(JvmTestSuite::class) {
             useKotlinTest("1.8.10")
         }
     }

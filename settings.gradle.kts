@@ -13,7 +13,7 @@ plugins {
 
 rootProject.name = "kafka-kicker"
 
-include("lib", "cli", "sdk", "ui")
+include("core", "cli", "sdk", "ui")
 
 include("service")
 apply(from = "service/settings.gradle.kts")
