@@ -1,4 +1,4 @@
-package ch.sonofabit.kafka_kicker.service.util
+package ch.sonofabit.kafka_kicker.service.api.util
 
 import io.quarkus.hibernate.reactive.panache.Panache
 import io.quarkus.test.vertx.UniAsserter

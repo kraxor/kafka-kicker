@@ -1,7 +1,7 @@
-package ch.sonofabit.kafka_kicker.service.connection.resource
+package ch.sonofabit.kafka_kicker.service.api.connection.resource
 
-import ch.sonofabit.kafka_kicker.service.Connection
-import ch.sonofabit.kafka_kicker.service.util.transactional
+import ch.sonofabit.kafka_kicker.service.api.Connection
+import ch.sonofabit.kafka_kicker.service.api.util.transactional
 import io.quarkus.test.junit.QuarkusTest
 import io.quarkus.test.vertx.RunOnVertxContext
 import io.quarkus.test.vertx.UniAsserter

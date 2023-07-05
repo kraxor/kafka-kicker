@@ -1,6 +1,6 @@
-package ch.sonofabit.kafka_kicker.service
+package ch.sonofabit.kafka_kicker.service.api
 
-import ch.sonofabit.kafka_kicker.service.util.transactional
+import ch.sonofabit.kafka_kicker.service.api.util.transactional
 import io.kotest.matchers.shouldNotBe
 import io.quarkus.test.junit.QuarkusTest
 import io.quarkus.test.vertx.RunOnVertxContext

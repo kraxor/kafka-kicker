@@ -1,4 +1,4 @@
-package ch.sonofabit.kafka_kicker.service.connection.resource
+package ch.sonofabit.kafka_kicker.service.api.connection.resource
 
 import io.quarkus.test.junit.QuarkusTest
 import io.restassured.module.kotlin.extensions.Then

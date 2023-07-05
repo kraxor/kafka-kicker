@@ -1,4 +1,4 @@
-package ch.sonofabit.kafka_kicker.service
+package ch.sonofabit.kafka_kicker.service.api
 
 
 import io.quarkus.hibernate.reactive.panache.PanacheRepository

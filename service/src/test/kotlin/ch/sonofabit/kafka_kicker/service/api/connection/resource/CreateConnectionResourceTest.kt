@@ -1,4 +1,4 @@
-package ch.sonofabit.kafka_kicker.service.connection.resource
+package ch.sonofabit.kafka_kicker.service.api.connection.resource
 
 import io.kotest.matchers.shouldBe
 import io.kotest.matchers.shouldNotBe
