@@ -1,8 +1,8 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="TEST [quarkusTest]" type="GradleRunConfiguration" factoryName="Gradle">
+  <configuration default="false" name="kafka-kicker:service [quarkusTest]" type="GradleRunConfiguration" factoryName="Gradle">
     <ExternalSystemSettings>
       <option name="executionName" />
-      <option name="externalProjectPath" value="$PROJECT_DIR$" />
+      <option name="externalProjectPath" value="$PROJECT_DIR$/service" />
       <option name="externalSystemIdString" value="GRADLE" />
       <option name="scriptParameters" value="" />
       <option name="taskDescriptions">
