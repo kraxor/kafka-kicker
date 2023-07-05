@@ -4,3 +4,7 @@ quarkus:
     enabled: true
   live-reload:
     instrumentation: true
+  http:
+    cors:
+      ~: true
+      origins: "http://localhost:3000"
