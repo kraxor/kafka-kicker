@@ -17,6 +17,10 @@ fun TaskContainer.registerClientSdk(name: String, config: GenerateTask.() -> Uni
         outputDir.set("$projectDir/clients/$name")
         skipValidateSpec.set(true) // FIXME (upstream) the generated schema is missing some descriptions
         config()
+    }.apply {
+        configure {
+            dependsOn(":service:assemble")
+        }
     }
 
 tasks.registerClientSdk("kotlin") {}
