@@ -17,23 +17,27 @@ Tech stack TLDR:
 
 # Quick Start
 
-| mode                                      | IntelliJ             | Gradle        | `QUARKUS_PROFILE` | External Services    |
-|-------------------------------------------|----------------------|---------------|-------------------|----------------------|
-| [development](#development)               | `DEV [quarkusDev]`   | `quarkusDev`  | `dev`             | provided (Quarkus)   |
-| [continuous testing](#continuous-testing) | `TEST [quarkusTest]` | `quarkusTest` | `test`            | provided (Quarkus)   |
-| [production](#production)                 | `PROD [quarkusDev]`  | `quarkusDev`  | `prod`            | `docker-compose.yml` |   
-
 All profiles use the default debugger port 5005.
 
 ### Development
 
-Standard Quarkus Dev mode with live reloading, Dev UI and Dev Services enabled. Requires docker daemon.
+In IntelliJ, run `START [dev mode]` to execute the code generation tasks and start the backend and the frontend in dev mode.
 
-Start using IntelliJ `DEV [quarkusDev]` or from the terminal `$ ./gradlew quarkusDev`
+* frontend
+  * UI: http://localhost:3000
+* backend
+  * welcome page: http://localhost:8080
+  * Dev UI: http://localhost:8080/q/dev
+  * Sagger UI: http://localhost:8080/q/swagger-ui
+  * continuous testing: http://localhost:8080/q/dev-ui/continuous-testing
 
-Dev UI: http://localhost:8080/q/dev
-
-Swagger UI: http://localhost:8080/q/swagger-ui
+Alternatively, you can execute these steps individually:
+* in `/`:
+  * `./gradlew :sdk:generate_typescript-axios`
+  * `./gradlew :service:quarkusDev`
+* in `/ui`
+  * `npm install`
+  * `npm start`
 
 ### Continuous testing
 
