@@ -22,7 +22,7 @@ repositories {
 dependencies {
     // This dependency is used by the application.
     implementation("com.google.guava:guava:31.1-jre")
-    implementation(project(":core"))
+    implementation(project(":service:core"))
 }
 
 testing {

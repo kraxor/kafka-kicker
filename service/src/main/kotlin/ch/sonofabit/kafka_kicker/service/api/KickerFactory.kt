@@ -1,6 +1,6 @@
 package ch.sonofabit.kafka_kicker.service.api
 
-import ch.sonofabit.kafka.kicker.lib.Kicker
+import ch.sonofabit.kafka_kicker.service.core.Kicker
 import jakarta.enterprise.context.ApplicationScoped
 
 

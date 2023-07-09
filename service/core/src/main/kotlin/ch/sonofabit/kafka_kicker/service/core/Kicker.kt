@@ -1,4 +1,4 @@
-package ch.sonofabit.kafka.kicker.lib
+package ch.sonofabit.kafka_kicker.service.core
 
 import org.apache.kafka.clients.admin.AdminClient
 import org.apache.kafka.clients.admin.AdminClientConfig

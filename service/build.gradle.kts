@@ -17,7 +17,7 @@ val quarkusPlatformVersion: String by project
 
 dependencies {
     // internal
-    implementation(project(":core"))
+    implementation(project(":service:core"))
 
     // Quarkus / core
     implementation(enforcedPlatform("$quarkusPlatformGroupId:$quarkusPlatformArtifactId:$quarkusPlatformVersion"))

@@ -26,7 +26,7 @@
           <stringArguments>
             <stringArg name="classpath">
               <args>
-                <arg>$MODULE_DIR$/../../../core/build/libs/core-1.0.0-SNAPSHOT.jar</arg>
+                <arg>$MODULE_DIR$/../../../service/core/build/libs/core-1.0.0-SNAPSHOT.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-hibernate-reactive-panache-kotlin/3.0.3.Final/e004b28027d5b368fcc946d0c36fe8890fd921f6/quarkus-hibernate-reactive-panache-kotlin-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-kotlin/3.0.3.Final/2e86465cb98414aee545db785830e6442e54386f/quarkus-kotlin-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.reactive/mutiny-kotlin/2.1.0/a3880b850a13af85064cd0c7d31c370afcb9ae4e/mutiny-kotlin-2.1.0.jar</arg>

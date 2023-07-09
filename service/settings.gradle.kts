@@ -12,3 +12,5 @@ pluginManagement {
         mavenLocal()
     }
 }
+
+include(":service:core")
