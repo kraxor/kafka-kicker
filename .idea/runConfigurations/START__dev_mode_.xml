@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="START [dev mode]" type="CompoundRunConfigurationType">
+    <toRun name="kafka-kicker:service [quarkusDev]" type="GradleRunConfiguration" />
+    <toRun name="npm start" type="js.build_tools.npm" />
+    <method v="2" />
+  </configuration>
+</component>

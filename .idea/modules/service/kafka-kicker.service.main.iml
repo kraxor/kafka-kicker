@@ -14,7 +14,7 @@
       <configuration />
     </facet>
     <facet external-system-id="GRADLE" type="kotlin-language" name="Kotlin">
-      <configuration version="5" platform="JVM 17" allPlatforms="JVM [17]" useProjectSettings="false">
+      <configuration version="5" platform="JVM 11" allPlatforms="JVM [11]" useProjectSettings="false">
         <compilerSettings>
           <option name="additionalArguments" value="-Xallow-no-source-files" />
         </compilerSettings>
@@ -26,7 +26,7 @@
           <stringArguments>
             <stringArg name="classpath">
               <args>
-                <arg>$MODULE_DIR$/../../../lib/build/libs/lib-1.0.0-SNAPSHOT.jar</arg>
+                <arg>$MODULE_DIR$/../../../service/core/build/libs/core-1.0.0-SNAPSHOT.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-hibernate-reactive-panache-kotlin/3.0.3.Final/e004b28027d5b368fcc946d0c36fe8890fd921f6/quarkus-hibernate-reactive-panache-kotlin-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-kotlin/3.0.3.Final/2e86465cb98414aee545db785830e6442e54386f/quarkus-kotlin-3.0.3.Final.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.reactive/mutiny-kotlin/2.1.0/a3880b850a13af85064cd0c7d31c370afcb9ae4e/mutiny-kotlin-2.1.0.jar</arg>
@@ -240,7 +240,7 @@
               </args>
             </stringArg>
             <stringArg name="destination" arg="$MODULE_DIR$/../../../service/build/classes/kotlin/main" />
-            <stringArg name="jvmTarget" arg="17" />
+            <stringArg name="jvmTarget" arg="11" />
             <stringArg name="moduleName" arg="service" />
             <stringArg name="apiVersion" arg="1.8" />
             <stringArg name="languageVersion" arg="1.8" />

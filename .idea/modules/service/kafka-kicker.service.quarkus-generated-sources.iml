@@ -2,7 +2,7 @@
 <module version="4">
   <component name="FacetManager">
     <facet external-system-id="GRADLE" type="kotlin-language" name="Kotlin">
-      <configuration version="5" platform="JVM 17" allPlatforms="JVM [17]" useProjectSettings="false">
+      <configuration version="5" platform="JVM 11" allPlatforms="JVM [11]" useProjectSettings="false">
         <compilerSettings>
           <option name="additionalArguments" value="-Xallow-no-source-files" />
         </compilerSettings>
@@ -13,7 +13,7 @@
           </flagArguments>
           <stringArguments>
             <stringArg name="destination" arg="$MODULE_DIR$/../../../service/build/classes/kotlin/quarkus-generated-sources" />
-            <stringArg name="jvmTarget" arg="17" />
+            <stringArg name="jvmTarget" arg="11" />
             <stringArg name="moduleName" arg="service_quarkus-generated-sources" />
             <stringArg name="apiVersion" arg="1.8" />
             <stringArg name="languageVersion" arg="1.8" />
