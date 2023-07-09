@@ -1,5 +1,6 @@
-package ch.sonofabit.kafka.kicker.lib
+package ch.sonofabit.kafka_kicker.service.core
 
+import ch.sonofabit.kafka_kicker.service.core.Kicker
 import io.kotest.matchers.shouldBe
 import org.apache.kafka.clients.admin.AdminClient
 import org.apache.kafka.clients.admin.AdminClientConfig.BOOTSTRAP_SERVERS_CONFIG

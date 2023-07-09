@@ -28,7 +28,7 @@
               <args>
                 <arg>$MODULE_DIR$/../../../service/build/classes/kotlin/main</arg>
                 <arg>$MODULE_DIR$/../../../service/build/resources/main</arg>
-                <arg>$MODULE_DIR$/../../../core/build/libs/core-1.0.0-SNAPSHOT.jar</arg>
+                <arg>$MODULE_DIR$/../../../service/core/build/libs/core-1.0.0-SNAPSHOT.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/kotlin-extensions/5.3.0/49c40e5e3070fa8bb34605758fa478473e427b5a/kotlin-extensions-5.3.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.kotest/kotest-assertions-core-jvm/5.6.2/6ae8aa8704433a3d26baa35289e4a73da73fa5ce/kotest-assertions-core-jvm-5.6.2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-hibernate-reactive-panache-kotlin/3.0.3.Final/e004b28027d5b368fcc946d0c36fe8890fd921f6/quarkus-hibernate-reactive-panache-kotlin-3.0.3.Final.jar</arg>
